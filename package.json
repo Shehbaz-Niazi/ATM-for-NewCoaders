@@ -1,0 +1,25 @@
+{
+  "name": "atm",
+  "version": "1.0.5",
+  "description": "This npm package provides essential ATM functionalities implemented in TypeScript and Node.js. Easily integrate features such as balance inquiries, cash withdrawals, deposits, and transaction history tracking into your applications. Developed with efficiency and modularity in mind, this module streamlines ATM operations for your projects.",
+  "main": "index.js",
+  "type": "module",
+  "bin" : "./app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.3",
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.11.30"
+  }
+}
